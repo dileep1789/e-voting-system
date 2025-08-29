@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <title>online voting system</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h4 class="r-t"> <a href="./index.html">register</a></h4>
+    <h1>Online Voting System</h1>
+    <hr>
+    <h3 id="reg">Registration Form</h3>
+    <form action="register.php" method="post">
+    <input type="text" name="name" placeholder="Enter name">
+    <input type="mobile" name="mobile" placeholder="Enter mobile"><br><br>
+    <input type="password" name="password" placeholder="Password">
+    <input type="password" name="cpassword" placeholder="Confirm password"><br><br>
+    <input id="address" type="text" name="address" placeholder="Address"><br><br>
+    <center>
+       <div id="imagepart">
+       Upload image:<input type="file" name="photo">
+       </div>
+       <br>
+       <div id="role">
+       Select your role:<select name="role">
+       <option value="1">Voter</option>
+       <option value="2">Group</option>
+       </select>
+       </div>
+    </center>
+    <br>
+    <button id="loginbutton" name="regist" > Register</button><br><br>
+    Already user? <a href="./login.html">Login here</a>
+
+    </form>
+</body>
+</html>
